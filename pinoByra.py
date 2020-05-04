@@ -1,9 +1,9 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python2
 import socket
 
-print("Let's start")
+print "Let's start"
 
-yolo = "A" * (2048))
+yolo = "A" * 2048
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
@@ -12,4 +12,4 @@ s.send(yolo)
 
 s.close()
 
-print("Finished")
+print "Finished"
