@@ -7,7 +7,7 @@ yolo = "A" * 2048
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-s.connect(("192.168.178.10", 7042))
+s.connect(("127.0.0.1", 7042))
 s.send(yolo)
 
 s.close()
